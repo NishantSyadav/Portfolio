@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nishant Singh Yadav — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">NSY<span>.dev</span></div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about" onclick="closeNav()">About</a></li>
+    <li><a href="#skills" onclick="closeNav()">Skills</a></li>
+    <li><a href="#projects" onclick="closeNav()">Projects</a></li>
+    <li><a href="#profiles" onclick="closeNav()">Profiles</a></li>
+    <li><a href="#achievements" onclick="closeNav()">Achievements</a></li>
+    <li><a href="#contact" onclick="closeNav()">Contact</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" onclick="toggleNav()" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-badge">Available for Opportunities</div>
+  <h1 class="hero-name">
+    <span class="first">Nishant Singh</span><br>
+    <span class="last">Yadav</span>
+  </h1>
+  <p class="hero-roles">
+    BTech CSE (AI/ML)
+    <span class="sep">/</span>
+    Web Developer
+    <span class="sep">/</span>
+    Problem Solver
+  </p>
+  <p class="hero-desc">
+    Passionate about building elegant solutions to complex problems.
+    I bridge the gap between algorithms and real-world applications —
+    one line of code at a time.
+  </p>
+  <div class="hero-cta">
+    <a href="#projects" class="btn-primary">View Projects</a>
+    <a href="#contact" class="btn-ghost">Get in Touch</a>
+  </div>
+  <div class="hero-stats">
+    <div class="stat-item">
+      <div class="stat-num">C++</div>
+      <div class="stat-label">Primary Language</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">DSA</div>
+      <div class="stat-label">Core Focus</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">AI/ML</div>
+      <div class="stat-label">Specialization</div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="sec-tag reveal">// about me</div>
+  <h2 class="sec-title reveal">Who I <span>Am</span></h2>
+  <div class="about-grid">
+    <div class="about-text reveal">
+      <p>
+        I'm a <strong>second-year Computer Science (AI/ML) student</strong> with a deep passion for problem-solving and building meaningful software. I believe that great engineers are made through deliberate practice and relentless curiosity.
+      </p>
+      <p>
+        I actively practice <strong>Data Structures and Algorithms in C++</strong>, constantly sharpening my analytical thinking and coding fundamentals. Alongside my academic journey, I hold certifications in <strong>Artificial Intelligence and Machine Learning</strong>.
+      </p>
+      <p>
+        My long-term goal is to grow into a <strong>skilled software engineer</strong> who can architect systems that solve real problems at scale.
+      </p>
+    </div>
+    <div class="about-cards">
+      <div class="glass-card reveal">
+        <div class="card-icon">🎓</div>
+        <div class="card-title">BTech — Computer Science (AI/ML)</div>
+        <div class="card-sub">2nd Year · Currently enrolled</div>
+      </div>
+      <div class="glass-card reveal">
+        <div class="card-icon">🏆</div>
+        <div class="card-title">Certified in AI & Machine Learning</div>
+        <div class="card-sub">Continuous learner · Growth-focused</div>
+      </div>
+      <div class="glass-card reveal">
+        <div class="card-icon">👥</div>
+        <div class="card-title">Team Leadership</div>
+        <div class="card-sub">Collaborative builder · Effective communicator</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="sec-tag reveal">// tech stack</div>
+  <h2 class="sec-title reveal">Skills &amp; <span>Expertise</span></h2>
+  <div class="skills-grid">
+    <div class="skill-item reveal"><div class="skill-dot"></div><span class="skill-name">C++</span></div>
+    <div class="skill-item reveal"><div class="skill-dot"></div><span class="skill-name">Data Structures & Algorithms</span></div>
+    <div class="skill-item reveal"><div class="skill-dot"></div><span class="skill-name">Problem Solving</span></div>
+    <div class="skill-item reveal"><div class="skill-dot"></div><span class="skill-name">Machine Learning Basics</span></div>
+    <div class="skill-item reveal"><div class="skill-dot"></div><span class="skill-name">AI Fundamentals</span></div>
+    <div class="skill-item reveal"><div class="skill-dot"></div><span class="skill-name">Git & GitHub</span></div>
+    <div class="skill-item reveal"><div class="skill-dot"></div><span class="skill-name">Analytical Thinking</span></div>
+    <div class="skill-item reveal"><div class="skill-dot"></div><span class="skill-name">Team Leadership</span></div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="sec-tag reveal">// work</div>
+  <h2 class="sec-title reveal">Featured <span>Projects</span></h2>
+  <div class="projects-grid">
+    <div class="project-card reveal">
+      <div class="proj-num">01 — Featured</div>
+      <div class="proj-name">UniBridge</div>
+      <div class="proj-desc">
+        A platform connecting students with universities and peers for career building and skill development. UniBridge fosters meaningful academic connections and creates a collaborative ecosystem for students to grow together.
+      </div>
+      <div class="proj-tags">
+        <span class="proj-tag">Web App</span>
+        <span class="proj-tag">EdTech</span>
+        <span class="proj-tag">Community</span>
+      </div>
+    </div>
+    <div class="project-card reveal">
+      <div class="proj-num">02 — In Progress</div>
+      <div class="proj-name">More Coming Soon</div>
+      <div class="proj-desc">
+        Currently building and exploring new ideas at the intersection of software engineering and AI. Stay tuned for upcoming projects.
+      </div>
+      <div class="proj-tags">
+        <span class="proj-tag">AI/ML</span>
+        <span class="proj-tag">C++</span>
+        <span class="proj-tag">DSA</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- PROFILES -->
+<section id="profiles">
+  <div class="sec-tag reveal">// coding profiles</div>
+  <h2 class="sec-title reveal">Find Me <span>Online</span></h2>
+  <div class="profiles-grid">
+
+    <a href="https://leetcode.com/u/HunttillX/" target="_blank" class="profile-card reveal">
+      <div class="profile-card-top">
+        <div class="profile-logo leetcode-logo">
+          <svg viewBox="0 0 50 50" width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M36.7 36.2c1.4-1.4 1.4-3.6 0-5L25.5 20l-3.5 3.5 10.2 10.2-10.2 10.2 3.5 3.5 11.2-11.2z" fill="#FFA116"/>
+            <path d="M13.3 13.8L24.5 25 13.3 36.2l-3.5-3.5L19.5 25 9.8 17.3l3.5-3.5z" fill="#B3B3B3"/>
+            <path d="M16 32h18v3H16z" fill="#FFA116"/>
+          </svg>
+        </div>
+        <div class="profile-badge">DSA</div>
+      </div>
+      <div class="profile-name">LeetCode</div>
+      <div class="profile-handle">@HunttillX</div>
+      <div class="profile-desc">Practicing Data Structures & Algorithms with competitive programming challenges.</div>
+      <div class="profile-visit">Visit Profile ↗</div>
+    </a>
+
+    <a href="https://www.hackerrank.com/profile/NishantSY_05" target="_blank" class="profile-card reveal">
+      <div class="profile-card-top">
+        <div class="profile-logo hackerrank-logo">
+          <svg viewBox="0 0 50 50" width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="50" height="50" rx="8" fill="#00EA64" opacity="0.15"/>
+            <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-size="26" font-weight="bold" fill="#00EA64" font-family="monospace">HR</text>
+          </svg>
+        </div>
+        <div class="profile-badge">Certified</div>
+      </div>
+      <div class="profile-name">HackerRank</div>
+      <div class="profile-handle">@NishantSY_05</div>
+      <div class="profile-desc">Earned certifications in Problem Solving and CSS through HackerRank challenges.</div>
+      <div class="profile-visit">Visit Profile ↗</div>
+    </a>
+
+  </div>
+</section>
+<section id="achievements">
+  <div class="sec-tag reveal">// achievements</div>
+  <h2 class="sec-title reveal">Certificates &amp; <span>Achievements</span></h2>
+  <div class="achievements-grid" id="certGrid"></div>
+</section>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <button class="lightbox-close" onclick="closeLightbox()">×</button>
+  <img id="lightboxImg" src="" alt="Certificate">
+</div>
+
+<div class="divider"></div>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="sec-tag reveal">// contact</div>
+  <h2 class="sec-title reveal">Let's <span>Connect</span></h2>
+  <div class="contact-wrap">
+    <div class="contact-info reveal">
+      <p>
+        I'm always open to meaningful conversations — whether it's about a project, an opportunity, or just geeking out over code. Feel free to reach out!
+      </p>
+      <div class="contact-links">
+        <a href="mailto:technicalnishant53@gmail.com" class="contact-link">
+          <span class="link-icon">📧</span>
+          <div>
+            <div>technicalnishant53@gmail.com</div>
+            <div class="link-label">Email me directly</div>
+          </div>
+        </a>
+        <a href="https://www.linkedin.com/in/nishant-singh-yadav-a2967237a" target="_blank" class="contact-link">
+          <span class="link-icon">💼</span>
+          <div>
+            <div>Nishant Singh Yadav</div>
+            <div class="link-label">Connect on LinkedIn</div>
+          </div>
+        </a>
+        <a href="https://github.com/NishantSyadav" target="_blank" class="contact-link">
+          <span class="link-icon">🐙</span>
+          <div>
+            <div>NishantSyadav</div>
+            <div class="link-label">View my GitHub</div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="contact-form reveal">
+      <div class="form-group">
+        <label>your_name</label>
+        <input type="text" placeholder="John Doe" />
+      </div>
+      <div class="form-group">
+        <label>your_email</label>
+        <input type="email" placeholder="john@example.com" />
+      </div>
+      <div class="form-group">
+        <label>message</label>
+        <textarea placeholder="Hi Nishant, I'd love to connect..."></textarea>
+      </div>
+      <button class="form-submit" onclick="this.textContent='Message Sent ✓'; this.style.background='linear-gradient(135deg,#059669,#0d9488)'; setTimeout(()=>{this.textContent='Send Message';this.style.background='';},3000)">Send Message</button>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>Designed &amp; Built by Nishant Singh Yadav &nbsp;·&nbsp; 2025</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
