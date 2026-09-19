@@ -83,7 +83,7 @@ const certificates = [
   issuer: "DeepLearning.AI · Stanford Online",
   date: "2026",
   image: "certificates/certificateML.png",
-  link: "https://coursera.org/verify/09GF3OHD2Y4D"
+  link: "https://www.coursera.org/account/accomplishments/certificate/O9GF3OHD2Y4D"
 },
   {
     name: "AI/ML for Geodata Analytics",
