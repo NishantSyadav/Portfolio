@@ -82,7 +82,7 @@ const certificates = [
   name: "Supervised Machine Learning: Regression and Classification",
   issuer: "DeepLearning.AI · Stanford Online",
   date: "2026",
-  image: "certificates/certificateML.PNG",
+  image: "certificates/certificateML.png",
   link: "https://coursera.org/verify/09GF3OHD2Y4D"
 },
   {
