@@ -79,6 +79,13 @@ window.addEventListener('scroll', () => {
 // To add a new certificate: copy one object, fill in the details, and add the image to your folder.
 const certificates = [
   {
+  name: "Supervised Machine Learning: Regression and Classification",
+  issuer: "DeepLearning.AI · Stanford Online",
+  date: "2026",
+  image: "certificates/certificateMl.PNG",
+  link: "https://coursera.org/verify/09GF3OHD2Y4D"
+},
+  {
     name: "AI/ML for Geodata Analytics",
     issuer: "IIRS · ISRO",
     date: "2026",
