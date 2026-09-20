@@ -74,7 +74,12 @@ nav {
 }
 .nav-logo span { color: var(--muted); }
 
-.nav-links { display: flex; gap: 36px; list-style: none; }
+.nav-links {
+  display: flex;
+  gap: 36px;
+  list-style: none;
+  margin-left: auto;
+}
 .nav-links a {
   color: var(--muted);
   text-decoration: none;
